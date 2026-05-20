@@ -1,0 +1,24 @@
+Source: philsf-likes-bioinfo
+Section: metapackages
+Priority: optional
+Maintainer: Felipe Figueiredo <philsf79@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+# Homepage: <insert the upstream URL, if relevant>
+Vcs-Browser: https://code.launchpad.net/~philsf/+git/philsf-likes-bioinfo
+Vcs-Git: https://git.launchpad.net/~philsf/+git/philsf-likes-bioinfo
+
+Package: philsf-likes-bioinfo
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Recommends:
+	bioperl,
+	psh | libdevel-repl-perl,
+Suggests:
+	pdl,
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
