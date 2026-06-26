@@ -1,3 +1,9 @@
+philsf-likes-bioinfo (0.2.1) resolute; urgency=medium
+
+  * Added (Recommends): git-gui | gitk,
+
+ -- Felipe Figueiredo <philsf79@gmail.com>  Fri, 26 Jun 2026 06:17:19 -0300
+
 philsf-likes-bioinfo (0.2.0) resolute; urgency=medium
 
   * INFRA: upgrade control and rules to new metapackage structure
